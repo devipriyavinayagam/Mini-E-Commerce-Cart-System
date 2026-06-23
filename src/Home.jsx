@@ -4,7 +4,6 @@ import { FiShoppingBag, FiSearch, FiShoppingCart, FiTruck, FiShield, FiRotateCcw
 import { FaTshirt, FaCouch, FaFutbol } from 'react-icons/fa'
 import { GiLipstick } from 'react-icons/gi'
 
-// Images - unoda assets folder la podu
 import homeimg from './assets/homeimg.png'
 import Watch from './assets/watch.png'
 import Shoe from './assets/shoe.png'
