@@ -13,8 +13,7 @@ function App() {
   return (
     <CartProvider>
     <BrowserRouter>
-      <Navbar />
-      <Home />
+      {/* <Navbar /> */}
       <Routes>
         <Route path='/home' element={<Home />} />
         <Route path='/about' element={<About />} />
