@@ -1,7 +1,7 @@
 import React from 'react'
 import { FiTrash2, FiPlus, FiMinus } from 'react-icons/fi'
 import { useCart } from './CartContext'  
-import { Link } from 'react-router'
+import { Link } from 'react-router-dom'
 
 const Cart = () => {
   const { cartItems, removeFromCart, updateQuantity, getTotalPrice } = useCart()
