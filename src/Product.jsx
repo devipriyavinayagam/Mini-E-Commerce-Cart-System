@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { FiSearch, FiShoppingCart, FiChevronRight } from 'react-icons/fi'
-import { Link } from 'react-router'
+import { Link } from 'react-router-dom'
 import { useCart } from './CartContext.jsx'
 
 const Product = () => {
