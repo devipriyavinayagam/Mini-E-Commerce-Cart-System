@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { FiShoppingBag, FiSearch, FiShoppingCart, FiMenu, FiX } from 'react-icons/fi'
-import { Link, useLocation, useNavigate } from 'react-router'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
 import { useCart } from './CartContext'
 
 const Navbar = () => {
