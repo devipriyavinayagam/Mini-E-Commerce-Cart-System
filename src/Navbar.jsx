@@ -23,7 +23,7 @@ const Navbar = () => {
       <div className={`nav-links ${menuOpen ? 'mobile-open' : ''}`}>
         <Link 
           to="/" 
-          className={isActive('/home') ? 'active' : ''} 
+          className={isActive('/') ? 'active' : ''} 
           onClick={closeMenu}
         >
           Home
